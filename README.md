@@ -13,14 +13,14 @@ Easy Click payment integration for Node.js and NestJS applications. Just provide
 ## Installation
 
 ```bash
-npm install click-integration
+npm install click-uz-integration
 ```
 
 ## Express Usage
 
 ```typescript
 import express from 'express';
-import { ClickPayment } from 'click-integration';
+import { ClickPayment } from 'click-uz-integration';
 
 const app = express();
 app.use(express.json());
@@ -104,7 +104,7 @@ app.post('/click/payment', async (req, res) => {
 
 ```typescript
 import { Controller, Post, Body } from '@nestjs/common';
-import { ClickPayment } from 'click-integration';
+import { ClickPayment } from 'click-uz-integration';
 
 @Controller('payments')
 export class PaymentController {
@@ -258,9 +258,9 @@ The package automatically:
 ## Links
 
 - [Click API Documentation](https://docs.click.uz)
-- [GitHub Repository](https://github.com/your-username/click-integration)
+- [GitHub Repository](https://github.com/shohjahon1code/click-integration)
 - [NPM Package](https://www.npmjs.com/package/click-integration)
 
 ## Support
 
-Need help? Email us at support@click.uz
+Need help? Email us at suyunovshohjahon08@gmail.com
