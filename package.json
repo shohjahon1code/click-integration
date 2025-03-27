@@ -1,6 +1,6 @@
 {
   "name": "click-uz-integration",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Universal Click payment integration for Node.js and NestJS applications",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
